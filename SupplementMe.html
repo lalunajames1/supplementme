@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>SupplementMeTrendingNews</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/css/bootstrap.min.css" />
+
+
+  <!-- Basscss-->
+  <link href="https://unpkg.com/basscss@7.1.1/css/basscss.min.css" rel="stylesheet">
+
+
+
+  <!-- media icon library -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+
+<body>
+
+
+  <!-- navbar-->
+  <nav class="mb4">
+    <div class="clearfix mb2 white bg-white">
+      <div class="left">
+        <a href="index.html" class="py2 m0">
+
+          <a href="https://sendyturcios.github.io/project-1-group-2/">
+            <img src="./assets/css/images/SupplementMe-01.png">
+          </a>
+
+        </a>
+      </div>
+    </div>
+  </nav>
+
+
+
+  <div class="container">
+    <h2>Basic Table</h2>
+    <p>The .table class adds basic styling (light padding and only horizontal dividers) to a table:</p>
+    <table class="table">
+      <thead>
+        <tr>
+          <th scope="col">trending health articles</th>
+          <!-- <th scope="col">Year</th>
+          <th scope="col">Search</th> -->
+        </tr>
+      </thead>
+      <tbody>
+        <!-- Insert artcicle rows here -->
+      </tbody>
+    </table>
+  </div>
+  <script src="https://www.gstatic.com/firebasejs/5.0.4/firebase.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script type="text/javascript">
+    // The below code fills in the first row of the table
+    var trending_news = "Health News Articles";
+    var queryURL = "https://api.nutritionix.com/v1_1/search/supplement?results=0%3A20&cal_min=0&cal_max=50000&fields=item_name%2Cbrand_name%2Citem_id%2Cbrand_id&appId=ae6176c4&appKey=b5598709f4e2219dfbdb4d56c66bea69"
+    //var appId = "ae6176c4";
+    //var apiKey = "b5598709f4e2219dfbdb4d56c66bea69"
+    // GET "https://api.nutritionix.com/v1_1/search/supplement?results=0%3A20&cal_min=0&cal_max=50000&fields=item_name%2Cbrand_name%2Citem_id%2Cbrand_id&appId=ae6176c4&appKey=b5598709f4e2219dfbdb4d56c66bea69"
+    $.ajax({
+      url: queryURL,
+      method: "GET"
+    }).then(function (response) {
+      console.log(response)
+      // Get reference to existing tbody element, create a new table row element
+      var tBody = $("tbody");
+      var tRow = $("<tr>");
+
+      // Methods run on jQuery selectors return the selector they we run on
+      // This is why we can create and save a reference to a td in the same statement we update its text
+      var brand_name = $("<td>").text(response.Brand_Name);
+      var item_name = $("<td>").text(response.Item_Name);
+      var brand_id = $("<td>").text(response.Brand_ID);
+      var item_id = $("<td>").text(response.Item.ID);
+
+      // Append the newly created table data to the table row
+      tRow.append(brand_nameTd, item_nameTd, brand_idTd, item_idTd);
+      // Append the table row to the table body
+      tBody.append(tRow);
+    });
+
+  </script>
+
+</body>
+
+</html>

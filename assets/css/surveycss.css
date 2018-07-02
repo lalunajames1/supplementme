@@ -1,0 +1,103 @@
+/*   The following is styling for survey question page  */
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans:400,700');
+
+body{
+    font-family: 'Noto Sans', sans-serif;
+    background-color:#f7f7f2;
+}
+
+html {
+    min-height: 100%;
+    position: relative;
+}
+
+.survey-content{
+    text-align: center;
+    font-size: 50px;
+   }
+   
+.white {
+    color: black;
+}
+
+.prev-section {
+    margin-top: 70px;
+}
+
+footer {
+    position: absolute;
+    width: 100%;
+    top: 100%;
+}
+
+.h6 {
+    text-align: center;
+  }
+
+#submit {
+    padding: 8px 30px;
+    margin-left: 10px;
+    vertical-align: middle;
+    border-radius: 12px;
+    border: none;
+    background-color: #ffd972;
+    color: #414141;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+#submit:hover, #submit:active {
+    background-color: #ebc86a;
+
+}
+
+#p-warn {
+    font-size: 20px;
+    color:#be3b3b;
+}
+
+.btn {
+    padding: 20px 30px;
+    margin: 0 10px 0 10px;
+    border-radius: 12px;
+    background-color:#ccdbdd;
+    color: #414141;
+    font-size: 20px;
+}
+
+.btn:hover, .btn:active {
+    background-color:#abb5b6;
+}
+
+.bg-olive {
+    background-color:#39a1c7;
+}
+
+a {
+   text-decoration: none;
+   color: #414141;
+}
+
+.prev-next {
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.prev-next:hover {
+    text-decoration: none;
+    color: #39a1c7;
+}
+
+.h5{
+    color: #fff;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+
+@media only screen and (max-width: 576px) {
+     
+     .h5 {
+         font-size: 12px;
+     }
+  
+  }

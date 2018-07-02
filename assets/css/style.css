@@ -1,0 +1,214 @@
+
+/*   The following is styling for survey question page  */
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans:400,700');
+
+body {
+   font-family: 'Noto Sans', sans-serif;
+}
+
+nav {
+   height: 20px;
+}
+
+header {
+   height: 400px;
+}
+
+#banner {
+   background-image: url(images/clouds-fashion-free-103123.jpg);
+   background-size: cover;
+}
+
+#transparent-background {
+   height: auto;
+   width: 100%;
+   background-color: rgb(255, 255, 255, .6);
+}
+
+/* banner text color */
+.white {
+    color: black;
+}
+
+/*button styling */
+
+.btn-primary{
+    color: #002d68;
+    background-color: rgba(255, 238, 80, 0.9);
+    font-size: 20px;
+    padding: 14px 60px;
+    border-radius: 12px;
+    margin-top: 30px;
+}
+
+.btn-primary:hover{
+    color: #002d68;
+    background-color: rgb(255, 238, 80, 0.8);
+}
+
+.h6 {
+    text-align: center;
+}
+
+.border {
+    font-size: 50px;
+    font-weight: bold;
+}
+
+/* button css */
+
+div.clearfix.border {
+    text-align: center;
+    margin: 20px 0 20px 0;
+    border: none;
+}
+
+/* google font used for middle section - instructions for user */
+
+#steps {
+    text-align: center;
+    font-size: 16px;
+    padding: 60px 120px 60px 120px;
+}
+
+.title {
+    font-size: 30px;  
+    font-family: 'Noto Sans', sans-serif;
+}
+
+/* social media icons*/
+
+.fa {
+    padding: 5px;
+    font-size: 30px;
+    width: 20px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 50%; 
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+    background: #3B5998;
+    color: white; 
+}
+
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+
+.fa-instagram {
+    background: #125688;
+    color: white;
+}
+
+
+ /* copyright text centered */
+
+.h5{
+    color: #fff;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+ .h6 {
+    text-align: center;
+}
+
+.bg-olive {
+    background-color:#39a1c7;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}
+
+.h3{
+    font-size: 20px;
+    font-weight: 800;
+    font-family: 'Noto Sans', sans-serif;
+
+}
+
+/*   Breakpoints */
+
+
+@media only screen and (max-width: 992px) {
+  #banner {
+    background-image: url(images/mobile-clouds-fashion-free.jpg);
+    background-size: cover;
+  }
+
+  #steps {
+    padding: 60px 20px 60px 20px;;
+  }
+
+  .title {
+    font-size: 20px; 
+  }
+
+}
+
+@media only screen and (max-width: 768px) {
+  #banner {
+    background-image: url(images/mobile-clouds-fashion-free.jpg);
+    background-size: cover;
+  }
+
+  #steps {
+    padding: 60px 20px 60px 20px;;
+  }
+
+  .title {
+    font-size: 20px; 
+  }
+
+}
+
+@media only screen and (max-width: 576px) {
+  #banner {
+    background-image: url(images/mobile-clouds-fashion-free.jpg);
+    background-size: cover;
+    height: 250px;
+  }
+
+  #transparent-background {
+    height: auto;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.6);
+  }
+
+  #steps {
+    padding: 60px 50px 60px 50px;;
+  }
+
+  .title {
+    font-size: 20px; 
+  }
+
+  .h1 {
+    font-size: 16px;
+  }
+
+  .mt4 {
+     margin-top: 0;
+   }
+
+   .mxn2{
+       margin-top: -12px;
+   }
+   
+   .h5 {
+       font-size: 12px;
+   }
+
+}
+

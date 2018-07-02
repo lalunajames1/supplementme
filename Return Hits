@@ -1,0 +1,286 @@
+{
+    "total_hits": 3418,
+    "max_score": 4.047488,
+    "hits": [
+        {
+            "_index": "f762ef22-e660-434f-9071-a10ea6691c27",
+            "_type": "item",
+            "_id": "58e88e5675ffd6702999097f",
+            "_score": 4.047488,
+            "fields": {
+                "item_id": "58e88e5675ffd6702999097f",
+                "item_name": "Supplement",
+                "brand_id": "585634fc70f14939486e4490",
+                "brand_name": "Focus Aid",
+                "nf_serving_size_qty": 1,
+                "nf_serving_size_unit": "serving"
+            }
+        },
+        {
+            "_index": "f762ef22-e660-434f-9071-a10ea6691c27",
+            "_type": "item",
+            "_id": "55e003f90f304883050c77a7",
+            "_score": 1.8699186,
+            "fields": {
+                "item_id": "55e003f90f304883050c77a7",
+                "item_name": "Dietary Supplement, Natural Peach Mango",
+                "brand_id": "5476201fbbd4fdf6606eb178",
+                "brand_name": "Supplement RX",
+                "nf_serving_size_qty": 1,
+                "nf_serving_size_unit": "serving"
+            }
+        },
+        {
+            "_index": "f762ef22-e660-434f-9071-a10ea6691c27",
+            "_type": "item",
+            "_id": "5508481ed97ee5a569fb40d7",
+            "_score": 1.800955,
+            "fields": {
+                "item_id": "5508481ed97ee5a569fb40d7",
+                "item_name": "Rx Greens Dietary Supplement",
+                "brand_id": "5476201fbbd4fdf6606eb178",
+                "brand_name": "Supplement RX",
+                "nf_serving_size_qty": 1,
+                "nf_serving_size_unit": "serving"
+            }
+        },
+        {
+            "_index": "f762ef22-e660-434f-9071-a10ea6691c27",
+            "_type": "item",
+            "_id": "5478e8b5fb51561224943d78",
+            "_score": 1.756479,
+            "fields": {
+                "item_id": "5478e8b5fb51561224943d78",
+                "item_name": "Dietary Supplement, Peach Flavor",
+                "brand_id": "5476201fbbd4fdf6606eb178",
+                "brand_name": "Supplement RX",
+                "nf_serving_size_qty": 1,
+                "nf_serving_size_unit": "serving"
+            }
+        },
+        {
+            "_index": "f762ef22-e660-434f-9071-a10ea6691c27",
+            "_type": "item",
+            "_id": "550b06f2b6129de43be896ce",
+            "_score": 1.7461684,
+            "fields": {
+                "item_id": "550b06f2b6129de43be896ce",
+                "item_name": "Dietary Supplement, Building Blocks Protein, Rich Chocolate",
+                "brand_id": "5476201fbbd4fdf6606eb178",
+                "brand_name": "Supplement RX",
+                "nf_serving_size_qty": 1,
+                "nf_serving_size_unit": "serving"
+            }
+        },
+        {
+            "_index": "f762ef22-e660-434f-9071-a10ea6691c27",
+            "_type": "item",
+            "_id": "591bf6247fc2fd4d72c7f621",
+            "_score": 1.6492094,
+            "fields": {
+                "item_id": "591bf6247fc2fd4d72c7f621",
+                "item_name": "Premium Whey",
+                "brand_id": "591bf6247fc2fd4d72c7f622",
+                "brand_name": "Mammoth Supplement",
+                "nf_serving_size_qty": 1,
+                "nf_serving_size_unit": "serving"
+            }
+        },
+        {
+            "_index": "f762ef22-e660-434f-9071-a10ea6691c27",
+            "_type": "item",
+            "_id": "54b9095d903fef576c6104d3",
+            "_score": 1.5952094,
+            "fields": {
+                "item_id": "54b9095d903fef576c6104d3",
+                "item_name": "RX Ultimate Cleanse",
+                "brand_id": "5476201fbbd4fdf6606eb178",
+                "brand_name": "Supplement RX",
+                "nf_serving_size_qty": 1,
+                "nf_serving_size_unit": "serving"
+            }
+        },
+        {
+            "_index": "f762ef22-e660-434f-9071-a10ea6691c27",
+            "_type": "item",
+            "_id": "548f0bb4e1928e5266156718",
+            "_score": 1.5669019,
+            "fields": {
+                "item_id": "548f0bb4e1928e5266156718",
+                "item_name": "Lean Shake",
+                "brand_id": "548f0bceee651e3915a65628",
+                "brand_name": "eatme Supplement",
+                "nf_serving_size_qty": 1,
+                "nf_serving_size_unit": "serving"
+            }
+        },
+        {
+            "_index": "f762ef22-e660-434f-9071-a10ea6691c27",
+            "_type": "item",
+            "_id": "5476201fbeaf4a0a78a5c812",
+            "_score": 1.5443338,
+            "fields": {
+                "item_id": "5476201fbeaf4a0a78a5c812",
+                "item_name": "Building Blocks Protein, Creamy Vanilla",
+                "brand_id": "5476201fbbd4fdf6606eb178",
+                "brand_name": "Supplement RX",
+                "nf_serving_size_qty": 1,
+                "nf_serving_size_unit": "serving"
+            }
+        },
+        {
+            "_index": "f762ef22-e660-434f-9071-a10ea6691c27",
+            "_type": "item",
+            "_id": "55c38d2805766b207d6989de",
+            "_score": 1.5443338,
+            "fields": {
+                "item_id": "55c38d2805766b207d6989de",
+                "item_name": "Building Blocks Protein, Rich Chocolate",
+                "brand_id": "5476201fbbd4fdf6606eb178",
+                "brand_name": "Supplement RX",
+                "nf_serving_size_qty": 1,
+                "nf_serving_size_unit": "serving"
+            }
+        },
+        {
+            "_index": "f762ef22-e660-434f-9071-a10ea6691c27",
+            "_type": "item",
+            "_id": "54e826c3fc4a703f4713ee3e",
+            "_score": 1.5412092,
+            "fields": {
+                "item_id": "54e826c3fc4a703f4713ee3e",
+                "item_name": "Building Blocks Protein, Rich Chocolate",
+                "brand_id": "5476201fbbd4fdf6606eb178",
+                "brand_name": "Supplement RX",
+                "nf_serving_size_qty": 1,
+                "nf_serving_size_unit": "serving"
+            }
+        },
+        {
+            "_index": "f762ef22-e660-434f-9071-a10ea6691c27",
+            "_type": "item",
+            "_id": "54abff48925eb27816a3e765",
+            "_score": 1.5326914,
+            "fields": {
+                "item_id": "54abff48925eb27816a3e765",
+                "item_name": "Creamy Vanilla, Building Block Protein",
+                "brand_id": "5476201fbbd4fdf6606eb178",
+                "brand_name": "Supplement RX",
+                "nf_serving_size_qty": 1,
+                "nf_serving_size_unit": "serving"
+            }
+        },
+        {
+            "_index": "f762ef22-e660-434f-9071-a10ea6691c27",
+            "_type": "item",
+            "_id": "556757725ae891d07bb8d896",
+            "_score": 1.4903562,
+            "fields": {
+                "item_id": "556757725ae891d07bb8d896",
+                "item_name": "R5 Reload, Post-Workout Drink, Blue Razz",
+                "brand_id": "5476201fbbd4fdf6606eb178",
+                "brand_name": "Supplement RX",
+                "nf_serving_size_qty": 1,
+                "nf_serving_size_unit": "serving"
+            }
+        },
+        {
+            "_index": "f762ef22-e660-434f-9071-a10ea6691c27",
+            "_type": "item",
+            "_id": "5547406efa33e6d70eb777ec",
+            "_score": 1.4681642,
+            "fields": {
+                "item_id": "5547406efa33e6d70eb777ec",
+                "item_name": "RX Oils Fish",
+                "brand_id": "5476201fbbd4fdf6606eb178",
+                "brand_name": "Supplement RX",
+                "nf_serving_size_qty": 1,
+                "nf_serving_size_unit": "serving"
+            }
+        },
+        {
+            "_index": "f762ef22-e660-434f-9071-a10ea6691c27",
+            "_type": "item",
+            "_id": "54f1fa5ff42f418b020e191f",
+            "_score": 1.4634483,
+            "fields": {
+                "item_id": "54f1fa5ff42f418b020e191f",
+                "item_name": "RX Meal Replacement, Chocolate Milkshake",
+                "brand_id": "5476201fbbd4fdf6606eb178",
+                "brand_name": "Supplement RX",
+                "nf_serving_size_qty": 1,
+                "nf_serving_size_unit": "serving"
+            }
+        },
+        {
+            "_index": "f762ef22-e660-434f-9071-a10ea6691c27",
+            "_type": "item",
+            "_id": "550534108fcd77d866df59dc",
+            "_score": 1.4161469,
+            "fields": {
+                "item_id": "550534108fcd77d866df59dc",
+                "item_name": "Premium Mix, Peach Mango",
+                "brand_id": "5476201fbbd4fdf6606eb178",
+                "brand_name": "Supplement RX",
+                "nf_serving_size_qty": 1,
+                "nf_serving_size_unit": "serving"
+            }
+        },
+        {
+            "_index": "f762ef22-e660-434f-9071-a10ea6691c27",
+            "_type": "item",
+            "_id": "57ff0002354aa7593b329f93",
+            "_score": 1.3584096,
+            "fields": {
+                "item_id": "57ff0002354aa7593b329f93",
+                "item_name": "Dietary Supplement",
+                "brand_id": "57ff0046d18593f219aa5434",
+                "brand_name": "Bulk Supplements",
+                "nf_serving_size_qty": 1,
+                "nf_serving_size_unit": "serving"
+            }
+        },
+        {
+            "_index": "f762ef22-e660-434f-9071-a10ea6691c27",
+            "_type": "item",
+            "_id": "54e3eb214c1aaee6203c9084",
+            "_score": 1.2539055,
+            "fields": {
+                "item_id": "54e3eb214c1aaee6203c9084",
+                "item_name": "Dietary Supplement",
+                "brand_id": "5457c54a0d5781691593ed3c",
+                "brand_name": "ShredZ PRO Supplements",
+                "nf_serving_size_qty": 1,
+                "nf_serving_size_unit": "serving"
+            }
+        },
+        {
+            "_index": "f762ef22-e660-434f-9071-a10ea6691c27",
+            "_type": "item",
+            "_id": "55e66552771ae2d64c6d5423",
+            "_score": 1.1953382,
+            "fields": {
+                "item_id": "55e66552771ae2d64c6d5423",
+                "item_name": "Whey Phase Chocolate",
+                "brand_id": "55e66344e32eb37f7ac4b271",
+                "brand_name": "Top Shape Supplement",
+                "nf_serving_size_qty": 1,
+                "nf_serving_size_unit": "serving"
+            }
+        },
+        {
+            "_index": "f762ef22-e660-434f-9071-a10ea6691c27",
+            "_type": "item",
+            "_id": "57784d834bacd3c519ed8c3f",
+            "_score": 1.1638443,
+            "fields": {
+                "item_id": "57784d834bacd3c519ed8c3f",
+                "item_name": "Diet Supplement",
+                "brand_id": "57784eb4e325af004c1867b5",
+                "brand_name": "Animal Pak",
+                "nf_serving_size_qty": 1,
+                "nf_serving_size_unit": "serving"
+            }
+        }
+    ]
+}
